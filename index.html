@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section class="section-1">
+    <form action="" class="form">
+        <div class="container">
+            <h1>Join Chatroom.</h1>
+            <label for="username">Please Enter Username :-</label>
+            <input type="text" id="username" placeholder="Username" required>
+            <button id="join-btn" type="submit">Join Chat</button>
+        </div>
+    </form>
+   </section>
+   <section class="section-2">
+       <div class="chatroom-container">
+          <div class="chatroom-header">Wellcome to Chatroom <span class="header-name"></span></div>
+          <div class="message-container" id="message-container">
+                   <div class="message received">Hii</div>
+                   <div class="message sent">Hhlo</div>
+                   <div class="message sent">how are u</div>
+          </div>
+          <div>
+            <input type="text" placeholder="Enter message" id="message-input">
+            <button id="send-btn">Send</button>
+          </div>
+       </div>
+   </section>
+    <script src="script.js"></script>
+</body>
+</html>
